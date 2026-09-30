@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/aboutMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#080A08"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- HEADER -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:background="#111611">
+
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:src="@drawable/nl_logo"
+                android:scaleType="fitCenter"
+                android:contentDescription="Next Level Gaming logo" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="NEXT LEVEL"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/btnAboutMenu"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="☰"
+                android:textColor="#00FF41"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:contentDescription="Open navigation menu" />
+
+        </LinearLayout>
+
+        <!-- GREEN DIVIDER -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#00FF41" />
+
+        <!-- PAGE HEADING -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="ABOUT US"
+                android:textColor="#00FF41"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="More Than Gaming. An Experience."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:gravity="center" />
+
+            <!-- ABOUT INTRODUCTION -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:text="WELCOME TO NEXT LEVEL"
+                android:textColor="#00FF41"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Next Level Gaming &amp; Esports Arena is a gaming and entertainment destination based in Johannesburg, South Africa. Established in 2023 by Jason Naidoo, the arena brings gamers together through exciting experiences, competitive gaming and unforgettable events."
+                android:textColor="#DDDDDD"
+                android:textSize="15sp"
+                android:lineSpacingExtra="5dp" />
+
+            <!-- FEATURED IMAGE -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_marginTop="25dp"
+                android:src="@drawable/nl_hero"
+                android:scaleType="centerCrop"
+                android:contentDescription="Gaming arena interior" />
+
+            <!-- OUR STORY -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:text="OUR STORY"
+                android:textColor="#00FF41"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Next Level Gaming was created to provide a space where people can connect, compete and enjoy gaming in a welcoming environment. Whether you are a casual player, an aspiring esports competitor or simply looking for something different to do with friends, our arena offers an experience for you."
+                android:textColor="#DDDDDD"
+                android:textSize="15sp"
+                android:lineSpacingExtra="5dp" />
+
+            <!-- WHAT WE OFFER -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:text="WHAT WE OFFER"
+                android:textColor="#00FF41"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="• Immersive virtual reality experiences&#10;• Racing simulator challenges&#10;• Competitive esports and training&#10;• VIP gaming experiences&#10;• Birthday parties and group entertainment&#10;• Escape room challenges"
+                android:textColor="#DDDDDD"
+                android:textSize="15sp"
+                android:lineSpacingExtra="8dp" />
+
+            <!-- MISSION CARD -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:padding="20dp"
+                android:orientation="vertical"
+                android:background="#172117">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="OUR MISSION"
+                    android:textColor="#00FF41"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="To bring people together through gaming by offering engaging experiences, encouraging friendly competition and creating memorable moments for every visitor."
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:lineSpacingExtra="5dp" />
+
+            </LinearLayout>
+
+            <!-- BOOK NOW BUTTON -->
+            <Button
+                android:id="@+id/btnAboutBookNow"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="30dp"
+                android:text="BOOK YOUR EXPERIENCE"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:backgroundTint="#00FF41" />
+
+        </LinearLayout>
+
+        <!-- FOOTER -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:background="#003B13"
+            android:padding="24dp">
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/nl_logo"
+                android:scaleType="fitCenter"
+                android:contentDescription="Next Level Gaming footer logo" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="NEXT LEVEL GAMING &amp; ESPORTS ARENA"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Your Game. Your Arena."
+                android:textColor="#CCFFCC"
+                android:textSize="14sp"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/footerAboutContact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:text="CONTACT US"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="FACEBOOK   |   INSTAGRAM   |   TIKTOK"
+                android:textColor="#CCFFCC"
+                android:textSize="12sp"
+                android:gravity="center" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginBottom="16dp"
+                android:background="#66FF88" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Terms &amp; Conditions"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp"
+                android:gravity="center"
+                android:padding="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Privacy Policy"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp"
+                android:gravity="center"
+                android:padding="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="© 2026 Next Level Gaming &amp; Esports Arena"
+                android:textColor="#CCFFCC"
+                android:textSize="11sp"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
